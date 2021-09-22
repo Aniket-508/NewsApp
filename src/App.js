@@ -73,20 +73,6 @@ export class App extends Component {
 		});
 	};
 
-	onCountryChange = e => {
-		this.setState({
-			articles: [],
-			selectedCountryValue: e.target.value,
-			endPoint: "/top-headlines",
-			page: 1,
-			params: {
-				country: e.target.value,
-				page: 1,
-				category: this.state.category,
-			},
-		});
-	};
-
 	onSearchTermChange = e => {
 		this.setState({ searchTerm: e.target.value });
 	};
