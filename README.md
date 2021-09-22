@@ -4,8 +4,9 @@
 - [Axios](https://axios-http.com/docs/intro)
 
 ## Screenshots :
-<img src="
-![Screenshot (66" width="90%"></img> 
+![]()
+![]()
+![]()
 
 ## Steps for Installation :
 1. Clone this repository
