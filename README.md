@@ -23,6 +23,6 @@ $ npm update -g
 ```
 4. Start the development server
 ```
-$ npm run dev
+$ npm start
 ```
 5. Don't forget to update the environment variable which is REACT_APP_API_KEY in '.env.local' file
