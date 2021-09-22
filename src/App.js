@@ -98,7 +98,7 @@ export class App extends Component {
 		return (
 			<Fragment>
 				<NavBar onCategoryChange={this.onCategoryChange} searchTerm={this.state.searchTerm} onSearchTermChange={this.onSearchTermChange} onSearchSubmit={this.onSearchSubmit} />
-				<News articles={this.state.articles} loading={this.state.loading} fetchMoreData={this.fetchMoreData} page={this.state.page} totalResults={this.state.totalResults} countries={this.state.countries} selectedCountryValue={this.state.selectedCountryValue} onCountryChange={this.onCountryChange} headingTitle={this.state.headingTitle} />
+				<News articles={this.state.articles} loading={this.state.loading} fetchMoreData={this.fetchMoreData} page={this.state.page} totalResults={this.state.totalResults} countries={this.state.countries} selectedCountryValue={this.state.selectedCountryValue} headingTitle={this.state.headingTitle} />
 			</Fragment>
 		);
 	}
