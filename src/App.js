@@ -62,11 +62,11 @@ export class App extends Component {
 			articles: [],
 			page: 1,
 			category,
-			country: this.state.selectedCountryValue === "international" ? "in" : this.state.selectedCountryValue,
+			country: "in",
 			endPoint: "/top-headlines",
 			headingTitle: this.capitalize(category),
 			params: {
-				country: this.state.selectedCountryValue === "international" ? "in" : this.state.selectedCountryValue,
+				country: "in",
 				page: 1,
 				category,
 			},
@@ -98,7 +98,7 @@ export class App extends Component {
 		return (
 			<Fragment>
 				<NavBar onCategoryChange={this.onCategoryChange} searchTerm={this.state.searchTerm} onSearchTermChange={this.onSearchTermChange} onSearchSubmit={this.onSearchSubmit} />
-				<News articles={this.state.articles} loading={this.state.loading} fetchMoreData={this.fetchMoreData} page={this.state.page} totalResults={this.state.totalResults} countries={this.state.countries} selectedCountryValue={this.state.selectedCountryValue} headingTitle={this.state.headingTitle} />
+				<News articles={this.state.articles} loading={this.state.loading} fetchMoreData={this.fetchMoreData} page={this.state.page} totalResults={this.state.totalResults} countries={this.state.countries} headingTitle={this.state.headingTitle} />
 			</Fragment>
 		);
 	}
