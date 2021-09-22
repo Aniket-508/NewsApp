@@ -4,9 +4,9 @@
 - [Axios](https://axios-http.com/docs/intro)
 
 ## Screenshots :
-![]()
-![]()
-![]()
+![](https://github.com/Aniket-508/NewsApp/blob/master/Screenshots/general.png)
+![](https://github.com/Aniket-508/NewsApp/blob/master/Screenshots/search.png)
+![](https://github.com/Aniket-508/NewsApp/blob/master/Screenshots/category.png)
 
 ## Steps for Installation :
 1. Clone this repository
